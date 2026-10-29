@@ -61,6 +61,10 @@
     dialog.querySelector('.dialog-close').focus({ preventScroll: true });
   };
   document.addEventListener('click', event => {
+    if (event.target.closest('[data-resume]')) {
+      showStatus('Resume coming soon. Please check back later.');
+      return;
+    }
     const projectTrigger = event.target.closest('[data-project]');
     if (projectTrigger) {
       const p = data.projects.find(item => item.id === projectTrigger.dataset.project);

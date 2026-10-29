@@ -20,9 +20,14 @@ const socials = data.socials.map(s => validURL(s.url)
   ? `<a class="social-link" href="${escape(s.url)}"${s.url.startsWith('http') ? ' target="_blank" rel="noopener noreferrer"' : ''}>${icon(s.icon)}<span>${escape(s.label)}</span>${icon('arrow-up-right')}</a>`
   : `<button class="social-link" type="button" data-social="${escape(s.label)}" aria-label="${escape(s.label)} — link coming soon">${icon(s.icon)}<span>${escape(s.label)}</span>${icon('arrow-up-right')}</button>`).join('');
 const exploring = data.exploring.map((s, i) => `<li><span class="explore-number">0${i + 1}</span>${escape(s)}${icon('asterisk')}</li>`).join('');
+const resumeIcon = icon('download');
+const resumeButton = data.resume?.url
+  ? `<a class="button button-resume" href="${asset(data.resume.url)}" download="${escape(data.resume.filename || 'Coco-Huang-Resume.pdf')}">Download Resume ${resumeIcon}</a>`
+  : `<button class="button button-resume" type="button" data-resume aria-label="Download Resume — coming soon">Download Resume ${resumeIcon}</button>`;
 const template = await readFile(path.join(root, 'src/index.html'), 'utf8');
 const replacements = {
   NAME: escape(data.name), TAGLINE: escape(data.tagline), INTRO: escape(data.intro),
+  RESUME_BUTTON: resumeButton,
   PORTRAIT: asset(data.portrait.image), PORTRAIT_ALT: escape(data.portrait.alt),
   PORTRAIT_LABEL: data.portrait.placeholder ? '<span class="portrait-label">Portrait placeholder</span>' : '',
   PORTRAIT_CAPTION: escape(data.portrait.caption), FEATURE_POSTER: asset(data.featuredVideo.poster),

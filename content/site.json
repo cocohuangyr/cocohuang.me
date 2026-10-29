@@ -3,6 +3,10 @@
   "domain": "https://cocohuang.me",
   "tagline": "Adventuring on Earth 🌍",
   "intro": "I explore the world around me — from places and landscapes to how technology can turn complex ideas into useful products, workflows, and stories.",
+  "resume": {
+    "url": "",
+    "filename": "Coco-Huang-Resume.pdf"
+  },
   "portrait": {
     "image": "assets/portrait-placeholder.svg",
     "alt": "An illustrated blue coastal landscape with an anonymous portrait silhouette; a placeholder for Coco’s photo.",

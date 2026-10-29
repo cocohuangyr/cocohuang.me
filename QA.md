@@ -1,5 +1,13 @@
 # V1 verification · 2026-10-29
 
+## Hero update · 2026-10-30
+
+- Removed both decorative hero taglines.
+- Replaced About me with a sky-blue pill-shaped Download Resume button and a download icon on the right.
+- Changed the main canvas to warm beige (`#faf6ee`).
+- Verified 1063, 768, 390, and 320 px layouts: no horizontal or button-text overflow.
+- Confirmed the resume button announces “Resume coming soon” because no resume file is available yet. The content configuration supports adding a download URL later.
+
 ## Browser checks
 
 Verified in the Codex in-app browser on the local HTTP preview.
