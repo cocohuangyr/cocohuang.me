@@ -1,0 +1,106 @@
+{
+  "name": "Coco Huang",
+  "domain": "https://cocohuang.me",
+  "tagline": "Adventuring on Earth 🌍",
+  "intro": "I explore the world around me — from places and landscapes to how technology can turn complex ideas into useful products, workflows, and stories.",
+  "portrait": {
+    "image": "assets/portrait-placeholder.svg",
+    "alt": "An illustrated blue coastal landscape with an anonymous portrait silhouette; a placeholder for Coco’s photo.",
+    "placeholder": true,
+    "caption": "A little space for my next adventure."
+  },
+  "featuredVideo": {
+    "id": "meet-coco",
+    "title": "Meet Coco",
+    "description": "A little about me, what makes me curious, and the things I’m creating along the way.",
+    "poster": "assets/ocean.svg",
+    "src": "",
+    "captions": "",
+    "comingSoon": "Personal introduction — coming soon"
+  },
+  "projects": [
+    {
+      "id": "story-graph",
+      "title": "Story Graph",
+      "category": "AI Product",
+      "description": "AI-assisted visual storytelling and information mapping.",
+      "cover": "assets/story-graph.svg",
+      "coverAlt": "Illustrative Story Graph cover with connected idea cards on a blue background.",
+      "url": "",
+      "status": "In exploration",
+      "detail": "An exploration of how AI can help connect information, reveal relationships, and shape ideas into visual stories. More about the process and the product will be shared here soon.",
+      "demo": { "src": "", "poster": "assets/story-graph.svg", "captions": "" }
+    },
+    {
+      "id": "crime-prevention-map",
+      "title": "AI Crime Prevention Map",
+      "category": "Research / Product",
+      "description": "Exploring how data and AI can support crime prevention and spatial understanding.",
+      "cover": "assets/map-concept.svg",
+      "coverAlt": "An illustrative blue city map with abstract location markers; not real crime data.",
+      "url": "",
+      "status": "In exploration",
+      "detail": "A research and product exploration at the intersection of data, AI, crime prevention, and spatial understanding. The cover is an illustrative concept, not a live map or a representation of real crime data. More details will follow as the project develops.",
+      "demo": { "src": "", "poster": "assets/map-concept.svg", "captions": "" }
+    },
+    {
+      "id": "next-experiment",
+      "title": "Coming Soon",
+      "category": "Experiment",
+      "description": "A little room for the next “what if?”. Something new is taking shape.",
+      "cover": "assets/next-experiment.svg",
+      "coverAlt": "A cobalt asterisk surrounded by soft blue orbital lines.",
+      "url": "",
+      "status": "Taking shape",
+      "detail": "This space is reserved for my next experiment. Come back for more products, ideas, and stories.",
+      "demo": { "src": "", "poster": "assets/next-experiment.svg", "captions": "" }
+    }
+  ],
+  "videos": [
+    {
+      "id": "obsidian-criminology",
+      "title": "How I Use Obsidian to Study Criminology",
+      "category": "Learning & systems",
+      "description": "Notes, connections, and a little curiosity. A look at how I approach learning with Obsidian.",
+      "poster": "assets/video-notes.svg",
+      "src": "",
+      "captions": "",
+      "comingSoon": "Video coming soon"
+    },
+    {
+      "id": "building-with-ai",
+      "title": "Building Products With AI",
+      "category": "Making things",
+      "description": "Exploring the path from an idea to a useful product with AI along for the ride.",
+      "poster": "assets/video-building.svg",
+      "src": "",
+      "captions": "",
+      "comingSoon": "Video coming soon"
+    },
+    {
+      "id": "tools-and-ideas",
+      "title": "Exploring New Tools & Ideas",
+      "category": "Following curiosity",
+      "description": "A place for new tools, creative detours, and the ideas that make me want to try something.",
+      "poster": "assets/video-exploring.svg",
+      "src": "",
+      "captions": "",
+      "comingSoon": "Video coming soon"
+    }
+  ],
+  "exploring": [
+    "AI × creative workflows",
+    "Human–AI collaboration",
+    "Product thinking",
+    "Motion design",
+    "Visual storytelling",
+    "Life in different places"
+  ],
+  "socials": [
+    { "label": "YouTube", "url": "", "icon": "youtube" },
+    { "label": "LinkedIn", "url": "", "icon": "linkedin" },
+    { "label": "X", "url": "", "icon": "x" },
+    { "label": "Instagram", "url": "", "icon": "instagram" },
+    { "label": "Email", "url": "", "icon": "mail" }
+  ]
+}
